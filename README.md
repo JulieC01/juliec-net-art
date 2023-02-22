@@ -1,1 +1,0 @@
-# juliec-net-art
