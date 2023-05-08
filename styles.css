@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Modak&family=Oswald:wght@700&family=Rubik+Moonrocks&family=Twinkle+Star&display=swap');
+* {
+    margin:0;
+    padding:0;
+    }
+
+html {
+    scroll-behavior: smooth;
+    margin: auto;
+}
+
+body {
+    background-color: #EA68C8;
+    width: 1128px;
+    margin: 80px auto 48px auto;
+}
+
+section {
+    text-align: center;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    color: #EDC2FF;
+    line-height: 1.5;
+    font-size: 60pt;
+}
+
+h2{
+    font-family: 'Coiny', cursive;
+    color: #EDC2FF;
+    line-height: 1.5;
+    font-size: 30pt;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.parent {
+    text-align: center;
+    position: relative;
+    top: 0;
+    left:0;
+}
+
+.boxes {
+    position:absolute;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #EDC2FF;
+    width:1131px;
+    height: 250px;
+    
+    align-content: center;
+    margin-bottom: 50px;
+    margin: 0px auto 48px auto;
+}
+
+#greeting {
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#glitchposter-one {
+    padding-top: 60px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#glitchposter-two {
+    padding-top: 60px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+
+#home {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
